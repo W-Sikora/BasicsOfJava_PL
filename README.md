@@ -1,4 +1,4 @@
-# Warsztaty_1
+# Warsztaty 1
 
 ## Gra w zgadywanie liczb
 
