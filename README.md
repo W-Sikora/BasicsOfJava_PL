@@ -1,4 +1,4 @@
-# Warsztaty_1
+# Warsztaty 1
 ## Gra w zgadywanie liczb
 Napisz prostą grę w zgadywanie liczb. Komputer ma wylosować liczbę w zakresie od 1 do 100.
 Następnie:
