@@ -4,7 +4,7 @@
 
 ## Symulator LOTTO
 
-## Gra w zgadywanie liczb 2Wyszukiwarka najpopularniejszych słów
+## Gra w zgadywanie liczb 2
 
 ## Kostka do gry
 
