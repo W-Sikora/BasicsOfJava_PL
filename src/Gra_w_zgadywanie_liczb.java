@@ -6,10 +6,9 @@ import java.util.Scanner;
 public class Gra_w_zgadywanie_liczb {
 
     public static void main(String[] args) {
-
         int maxNumber = 100;
         System.out.println("\n Wymyśliłem sobie liczbę całkowitą od 0 do " + maxNumber +
-                           " - zgadnij jaką? \n" + "---------------------------------------------------------------");
+                " - zgadnij jaką? \n" + "---------------------------------------------------------------");
         int randNumber = drawNumber(maxNumber);
         compareNumbers(randNumber, maxNumber);
     }
@@ -34,7 +33,7 @@ public class Gra_w_zgadywanie_liczb {
         }
     }
 
-    // porównuje liczbę zebraną od użytkownika z liczbą wygenerowaną losową
+    // porównuje liczbę pozyskaną od użytkownika z liczbą wygenerowaną losowo
     static void compareNumbers(int randomNumber, int maxNumber) {
         boolean end = true;
         while (end) {

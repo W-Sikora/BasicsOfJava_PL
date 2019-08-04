@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Symulator_LOTTO {
 
     public static void main(String[] args) {
-
         System.out.println("Symulator LOTTO");
 
         int[] userNumbers = getUserNumbers();
@@ -33,9 +32,7 @@ public class Symulator_LOTTO {
             }
 
         }
-
         System.out.println("\n" + compare(userNumbers, array));
-
     }
 
     // wypełnia tablicę liczbami całkowitymi bez powtórzeń pobranymi od użytkownika jeśli > 0 && < 50
@@ -69,7 +66,6 @@ public class Symulator_LOTTO {
     static int[] randNumbers() {
         Random generator = new Random();
         int[] randomNumbersArray = new int[6];
-
         int i = 0;
         while (i < 6) {
             int randomNumber = generator.nextInt(50);
@@ -85,7 +81,6 @@ public class Symulator_LOTTO {
     static boolean include(int[] array, int number) {
         boolean result;
         int sum = 0;
-
         for (int i = 0; i < array.length; i++) {
             if (array[i] == number) {
                 sum++;
@@ -105,7 +100,7 @@ public class Symulator_LOTTO {
         return array;
     }
 
-    //
+    // porównuje liczby użytkownika z wylosowanymi i zwraca komunikat
     static String compare(int[] userNumbers, int[] randNumbers) {
         String result = "";
         int repeat = 0;
