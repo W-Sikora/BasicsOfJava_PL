@@ -1,11 +1,11 @@
-# Warsztaty 1
+##Warsztat 1
 
-## Gra w zgadywanie liczb
+####1. Gra w zgadywanie liczb
 
-## Symulator LOTTO
+####2. Symulator LOTTO
 
-## Gra w zgadywanie liczb 2
+####3. Gra w zgadywanie liczb 2
 
-## Kostka do gry
+####4. Kostka do gry
 
-## Wyszukiwarka najpopularniejszych słów
+####5. Wyszukiwarka najpopularniejszych słów
