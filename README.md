@@ -31,20 +31,19 @@ Odwróćmy teraz sytuację z warsztatu "Gra w zgadywanie liczb": to użytkownik 
 ## Kostka do gry
 W grach planszowych i papierowych RPG używa się wielu rodzajów kostek do gry, nie tylko tych
 dobrze znanych, sześciennych. Jedną z popularniejszych kości jest np. kostka dziesięciościenna, a
-nawet stuścienna! Ponieważ w grach kośćmi rzuca się często, pisanie za każdym razem np. "rzuć dwiema kostkami dziesięciościennymi, a do wyniku dodaj 20", byłoby żmudne, czasochłonne i marnowałoby ogromne ilości papieru. W takich sytuacjach używa się kodu skracającego polecenie np.: <br>
-"rzuć 2D10+20". <br>
-Kod takiej kostki wygląda następująco:<br>
+nawet stuścienna! Ponieważ w grach kośćmi rzuca się często, pisanie za każdym razem np. "rzuć dwiema kostkami dziesięciościennymi, a do wyniku dodaj 20", byłoby żmudne, czasochłonne i marnowałoby ogromne ilości papieru. W takich sytuacjach używa się kodu skracającego polecenie np.:"rzuć 2D10+20". <br>
+<br>Kod takiej kostki wygląda następująco:<br>
 xDy+z<br>
 gdzie:<br>
-y – rodzaj kostek, których należy użyć (np. D6, D10),<br>
-x – liczba rzutów kośćmi (jeśli rzucamy raz, ten parametr jest pomijalny),<br>
-z – (opcjonalnie) liczba, którą należy dodać (lub odjąć) do wyniku rzutów.<br>
-Przykłady:<br>
-2D10+10 – 2 rzuty D10, do wyniku dodaj 10,<br>
-D6 – zwykły rzut kostką sześcienną,<br>
-2D3 – rzut dwiema kostkami trójściennymi,<br>
-D12-1 – rzut kością D12, od wyniku odejmij 1.<br>
-Typy kostek występujące w grach: D3, D4, D6, D8, D10, D12, D20, D100. <br>
+ y – rodzaj kostek, których należy użyć (np. D6, D10),<br>
+ x – liczba rzutów kośćmi (jeśli rzucamy raz, ten parametr jest pomijalny),<br>
+ z – (opcjonalnie) liczba, którą należy dodać (lub odjąć) do wyniku rzutów.<br>
+<br>Przykłady:<br>
+ 2D10+10 – 2 rzuty D10, do wyniku dodaj 10,<br>
+ D6 – zwykły rzut kostką sześcienną,<br>
+ 2D3 – rzut dwiema kostkami trójściennymi,<br>
+ D12-1 – rzut kością D12, od wyniku odejmij 1.<br>
+ Typy kostek występujące w grach: D3, D4, D6, D8, D10, D12, D20, D100. <br>
 Napisz funkcję, która:
 1) przyjmie w parametrze taki kod w postaci String,
 2) rozpozna wszystkie dane wejściowe:
