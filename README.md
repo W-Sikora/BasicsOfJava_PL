@@ -1,3 +1,3 @@
-# Warsztaty_1
+# Warsztaty 1
 ## Gra w zgadywanie liczb
-![](Warsztaty_1/images_md/_1_.png)
+![](images_md/_1_.png)
