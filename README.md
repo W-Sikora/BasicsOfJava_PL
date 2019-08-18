@@ -44,7 +44,7 @@ gdzie:<br>
  2D3 – rzut dwiema kostkami trójściennymi,<br>
  D12-1 – rzut kością D12, od wyniku odejmij 1.<br>
  Typy kostek występujące w grach: D3, D4, D6, D8, D10, D12, D20, D100. <br>
-Napisz funkcję, która:
+<br>Napisz funkcję, która:
 1) przyjmie w parametrze taki kod w postaci String,
 2) rozpozna wszystkie dane wejściowe:
    - rodzaj kostki,
