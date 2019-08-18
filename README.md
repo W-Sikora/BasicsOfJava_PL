@@ -1,4 +1,5 @@
 # Warsztaty 1
+
 ## Gra w zgadywanie liczb
 Napisz prostą grę w zgadywanie liczb. Komputer ma wylosować liczbę w zakresie od 1 do 100.
 Następnie:
@@ -11,8 +12,18 @@ mało!", po czym wrócić do pkt. 1;
 dużo!", po czym wrócić do pkt. 1;
 5) jeśli liczba podana przez użytkownika jest równa wylosowanej, wyświetlić komunikat: "Zgadłeś!",
 po czym zakończyć działanie programu.
+
 ## Symulator LOTTO
-![](images_md/_2_.png)
+Jak wszystkim wiadomo, LOTTO to gra liczbowa polegająca na losowaniu 6 liczb z zakresu od 1 do 49. Zadaniem gracza jest poprawne wytypowanie losowanych liczb. Nagradzane jest trafienie 3, 4, 5 lub 6 poprawnych liczb.
+Napisz program, który:
+1) zapyta o typowane liczby, przy okazji sprawdzi następujące warunki:
+     - czy wprowadzony ciąg znaków jest poprawną liczbą,
+     - czy użytkownik nie wpisał tej liczby już poprzednio,
+     - czy liczba należy do zakresu 1-49,
+2) po wprowadzeniu 6 liczb, posortuje je rosnąco i wyświetli na ekranie,
+3) wylosuje 6 liczb z zakresu i wyświetli je na ekranie,
+4) poinformuje gracza, czy trafił przynajmniej "trójkę".
+
 ## Gra w zgadywanie liczb 2
 ![](images_md/_3_.png)
 ![](images_md/_3.1_.png)
