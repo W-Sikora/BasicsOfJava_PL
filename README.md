@@ -58,3 +58,6 @@ Zaimportuj do projektu bibliotekę jsoup. Wyszukaj w popularnych serwisach inter
 2) Pomiń wszystkie elementy krótsze niż 3-znakowe.
 3) Utwórz tablicę elementów wykluczonych np. oraz, ponieważ
 4) Wczytaj utworzony plik popular_words.txt i na jego podstawie utwórz plik filtered_popular_words.txt , który zawierać będzie wszystkie znalezione słowa, pomijając słowa wykluczone.
+
+### Źródła
+Treści wyżej wymienionych zadań pochodzą z Warsztatów I Java opracowanych przez Coders Lab.
