@@ -25,7 +25,7 @@ Napisz program, który:
 4) poinformuje gracza, czy trafił przynajmniej "trójkę".
 
 ## Gra w zgadywanie liczb 2
-Odwróćmy teraz sytuację z warsztatu "Gra w zgadywanie liczb": to użytkownik pomyśli sobie liczbę z zakresu 1-1000, a komputer będzie zgadywał i zrobi to maksymalnie w 10 ruchach (pod warunkiem, że gracz nie będzie oszukiwał). Zadaniem gracza będzie udzielanie odpowiedzi "więcej", "mniej", "trafiłeś".
+Odwróćmy teraz sytuację z warsztatu "Gra w zgadywanie liczb": to użytkownik pomyśli sobie liczbę z zakresu 1-1000, a komputer będzie zgadywał i zrobi to maksymalnie w 10 ruchach (pod warunkiem, że gracz nie będzie oszukiwał). Zadaniem gracza będzie udzielanie odpowiedzi "więcej", "mniej", "trafiłeś".<br>
 ![](images_md/_3.1_.png)
 ## Kostka do gry
 ![](images_md/_4.1_.png)
