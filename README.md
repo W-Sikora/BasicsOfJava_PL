@@ -33,4 +33,8 @@ Odwróćmy teraz sytuację z warsztatu "Gra w zgadywanie liczb": to użytkownik 
 ![](images_md/_4.2_.png)
 ![](images_md/_4.3_.png)
 ## Wyszukiwarka najpopularniejszych słów
-![](images_md/_5_.png)
+Zaimportuj do projektu bibliotekę jsoup. Wyszukaj w popularnych serwisach internetowych nagłówków artykułów, a następnie zapisz pojedyńcze słowa w nich występujące do pliku o nazwie popular_words.txt.
+1) Wywołaj pobieranie dla wybranych serwisów internetowych.
+2) Pomiń wszystkie elementy krótsze niż 3-znakowe.
+3) Utwórz tablicę elementów wykluczonych np. oraz, ponieważ
+4) Wczytaj utworzony plik popular_words.txt i na jego podstawie utwórz plik filtered_popular_words.txt , który zawierać będzie wszystkie znalezione słowa, pomijając słowa wykluczone.
