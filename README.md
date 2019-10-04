@@ -1,4 +1,4 @@
-# Warsztaty 1
+# Podstawy Javy
 
 ## Gra w zgadywanie liczb
 Napisz prostą grę w zgadywanie liczb. Komputer ma wylosować liczbę w zakresie od 1 do 100.
